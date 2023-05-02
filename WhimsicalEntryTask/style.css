@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo-general-div{
+    display: grid;
+    place-items: center;
+    margin-top: 10rem;
+    cursor: pointer;
+}
+.logo-background{
+     height: 10rem;
+    width: 10rem;
+    background-color:#7706B2 ;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f-sign-logo{
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    transform: rotate(45deg);
+    margin-right: -28px;
+    border: 5px solid white;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.s-sign-logo{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    transform: rotate(45deg);
+    z-index: 2;
+    border-radius: 5px;
+}
+.logo-icons-div{
+    display: flex;
+}
+/* For the hover effect */
+.f-sign-logo:hover{
+    margin-right: -10px;
+    transition: 0.5s;
+  
+    
+}
+.s-sign-logo:hover{
+    transition: 0.5s;
+    transform: rotate(360deg);
+    
+}
+
+
+
+    
+
+
